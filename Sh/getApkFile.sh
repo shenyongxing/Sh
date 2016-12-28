@@ -1,5 +1,6 @@
 #! /bin/bash
 # get the apk install file
+# 如果执行时permisssion denied，则先尝试adb root命令
 
 adb shell "su -c '
         cd /data/app
